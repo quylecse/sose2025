@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Lebenslauf - Phu Quy Le </title>
+    <meta charset="UTF-8">
+    <meta name= "Quy Le" content= "Quy Le">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+     <hr>
+    <h1>Lebenslauf</h1>
+
+    <!-- Persönliche Daten -->
+    <section>
+        <h2>Persönliche Daten</h2>
+        <figure>
+            <img src="avatar.jpg" alt="Foto von Phu Quy Le">
+        </figure>
+        <p><i><q>too fast to live - too young to die</q></i></p> 
+        
+        <p><strong>Name:</strong> Phu Quy Le</p>
+        <p><strong>Geburtsdatum:</strong> 28.07.1993</p>
+        <p><strong>Adresse:</strong> Am Papehof 10, 30459 Hannover</p>
+        <p><strong>Telefon:</strong> 023456789</p>
+        <p><strong>E-Mail:</strong> <a href="mailto:lequycse@gmail.com">lequycse@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/quylecse" target="_blank">quylecse</a>
+        </p>        
+    </section><hr>
+
+    <!-- Berufserfahrung -->
+    <section>
+        <h2>Berufserfahrung</h2>        
+        <p><strong>09/2023 – aktuell</strong> <br></p>
+        <ul>
+            <li>Bachelor Studium, Hochschule Hannover, Hannover</li>
+            <li>Werkstudent als Verkäufer bei Comebuy, Hannover</li>
+        </ul>  
+        <p><strong>09/2023 – aktuell</strong> <br></p> 
+        <ul>
+            <li>Mustertext, Hannover</li>
+            <li>Mustertext2, Hannover</li>
+        </ul>            
+        
+    </section><hr>
+
+    <!-- Ausbildung -->
+    <section>
+        <h2>Ausbildung</h2>
+        <p><strong>09/2023 – aktuell</strong> <br>
+            <i><strong>Bachelor Studium, Hochschule Hannover, Hannover <br></strong></i>
+            Studiengang: Angewandte Informatik            
+        </p>        
+        <p><strong>02/2022 – 09/2023</strong> <br>
+            <i><strong>Deutschkursen, Justus-Liebig University Gießen , Gießen <br></strong></i>
+            Deutschkursen: B2-Intensiv, C1-Intensiv, DSH-Vorbereitungskurs.<br>
+            <i>Abschluss: DSH-2  </i>          
+        </p>
+        <p><strong>01/2020 – 02/2022</strong> <br>
+            <i><strong>Deutschkursen, Goethe-Institut-Ho-Chi-Minh-Stadt, Vietnam <br></strong></i>
+            Deutschkursen: A1-Intensiv, A2-Intensiv, B1-Intensiv.<br>
+            <i>Abschluss: B1  </i>          
+        </p>
+
+        <p><strong>10/2011 – 10/2016</strong> <br>
+            <i><strong>Bachelor Bauingenieurwesen - Offene Universität Ho-Chi-Minh-Stadt, Vietnam <br></strong></i>
+            <i>Vertiefung: Zivil- und Industriebau 2017</i>
+        </p>
+    </section>
+
+    <!-- Kenntnisse und Fähigkeiten -->
+    <section><hr>
+        <h2>Kenntnisse und Fähigkeiten</h2>
+
+        <h3>Sprachkenntnisse</h3>
+        <ul>
+            <li>Deutsch: B2 (zertifiziert)</li>
+            <li>Englisch: C1</li>
+            <li>Vietnamesisch: Muttersprache</li>
+        </ul>
+
+        <h3>IT-Kenntnisse</h3>
+        <ol>
+            <li><strong>Programmiersprachen:</strong> Java, Python, JavaScript</li>
+            <li><strong>Datenbanken:</strong> MySQL, MongoDB</li>
+            <li><strong>Frameworks:</strong> Spring Boot, React.js</li>
+        </ol>
+    </section><hr>
+
+    <!-- Zertifikate und Weiterbildungen -->
+    <section>
+        <h2>Zertifikate und Weiterbildungen</h2>
+        <ul>
+            <li>Scrum Master Zertifikat (2023)</li>
+            <li>Udemy-Kurs „Full-Stack Web Development“ (2022)</li>
+        </ul>
+    </section><hr>
+
+    <!-- Ehrenamtliche Tätigkeiten -->
+    <section>
+        <h2>Ehrenamtliche Tätigkeiten</h2>
+        <p>Freiwilliger Lehrer für Deutsch-Vietnamesische Kinder, 2021 – 2023</p>
+    </section><hr>
+
+    <!-- Hobbys und Interessen -->
+    <section>
+        <h2>Hobbys und Interessen</h2>
+        <ul>
+            <li>Reisen</li>
+            <li>Programmieren</li>
+            <li>Lesen</li>
+            <li>Fotografie</li>           
+        </ul>
+        &copy; Phu Quy Le, 2025
+    </section><hr>
+
+</body>
+</html>
