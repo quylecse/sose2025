@@ -1,0 +1,163 @@
+/* Allgemeines Zurücksetzen */
+body, h1, h2, h3, p, ul, ol, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Universeller Selektor: Box-Sizing "border-box" für alle Elemente anwenden */
+* {
+    box-sizing: border-box;
+}
+
+/* Body-Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hauptüberschrift-Styling */
+h1 {
+    font-size: 2.5em;
+    color: #004285;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #004285;
+    padding-bottom: 10px;
+}
+
+/* Unterüberschrift-Styling */
+h2 {
+    font-size: 1.8em;
+    color: #5e5134;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 4px solid #5e5134;
+    padding-left: 10px;
+}
+
+/* Weitere Überschriften */
+h3 {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Absatz-Styling */
+p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+/* Link-Styling mit Pseudoklasse */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover-Effekt für Links */
+a:hover {
+    text-decoration: underline;
+    color: #3447db;
+}
+
+/* Fokus-Effekt für Links */
+a:focus {
+    color: #ffba31;
+}
+
+/* Listen-Styling */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Section-Styling */
+.section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #e9e1e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Bild-Styling innerhalb von Figures */
+figure img {
+    max-width: 100%; /* Sicherstellen, dass das Bild die Containerbreite nicht überschreitet */
+    height: auto; /* Seitenverhältnis beibehalten */
+    border-radius: 50%; /* Das Bild rund machen */
+    display: block; /* Inline-Abstände entfernen */
+    margin: 0 auto; /* Zentrieren */
+    max-height: 200px; /* Höhe anpassen */
+    border: 3px solid #ddd;
+}
+
+/* Zitate-Styling */
+q {
+    font-style: italic;
+    color: #555;
+    quotes: """ """;
+    display: block;
+    text-align: center;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+/* Hervorhebungen */
+.highlight {
+    color: rgb(188, 33, 33);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+/* Styling für Persönliche Daten */
+#personDatenHeader {
+    color: rgb(188, 33, 33);
+    border-left: 4px solid rgb(188, 33, 33);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Media Queries für responsives Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .section {
+        padding: 15px;
+    }
+}
